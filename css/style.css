@@ -1,0 +1,133 @@
+*{
+	margin: 0 auto;
+}
+
+body{
+	background-image: url(../images/Background.jpg);
+	background-size: cover;
+	font-family: 'Cairo', sans-serif;
+	font-size: large;
+}
+
+.container{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+
+header{
+	background-color: #ececec;
+	height: 70px;
+	margin: 0 auto;
+}
+
+nav{
+	width: 80%;
+	text-align: right;
+	float: left;
+	margin-top: 25px;
+}
+
+nav ul li{
+	display: inline;
+	margin-right: 80px;
+	color: black;
+}
+
+nav ul li:hover{
+	cursor: pointer;
+	color: red;
+	transition: 0.6s;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+.slider{
+	height: 315px;
+	margin: 0 auto;
+}
+
+.left-content{
+	background-color: grey;
+	height: 600px;
+	width: 80%;
+	float: left;
+}
+
+.right-content{
+	background-color: khaki;
+	height: 600px;
+	width: 20%;
+	float: left;
+}
+
+.pinterest{
+	background-color: #bd081b;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.facebook{
+	background-color: #3b5998;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.twitter{
+	background-color: #1da1f2;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.linkedin{
+	background-color: #006699;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.googleplus{
+	background-color: #dc4a38;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.blogger{
+	background-color: #f06a35;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.github{
+	background-color: #171515;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+.behance{
+	background-color: #1769ff;
+	height: 12.5%;
+	text-align: center;
+	color: white;
+}
+
+
+footer{
+	background-color: black;
+	height: 700px;
+	color: white;
+	text-align: center;
+}
+
